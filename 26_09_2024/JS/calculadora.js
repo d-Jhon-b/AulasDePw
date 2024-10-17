@@ -1,18 +1,18 @@
-const Resposta = document.getElementById('Resposata')
+// const Resposta = document.getElementById('Resposata')
 const Banco = document.getElementById('Banco')
 
-let nota = 7;
-let faltas = 20;
-let res;
-if( (nota >=7 && faltas >20) || (nota <7 && faltas <=20)){
-    console.log(res)
-    res = 'Reprovado'
-}
-else if(nota >=7 && faltas <= 20 ){
-     console.log(res)
-     res = 'Aprovado'
-}
-Resposta.innerHTML = res
+// let nota = 3;
+// let faltas = 20;
+// let res;
+// if( (nota >=7 && faltas >20) || (nota <7 && faltas <=20)){
+//     console.log(res)
+//     res = 'Reprovado'
+// }
+// else if(nota >=7 && faltas <= 20 ){
+//      console.log(res)
+//      res = 'Aprovado'
+// }
+// Resposta.innerHTML = res
 
 
 //User
@@ -20,19 +20,19 @@ Resposta.innerHTML = res
 let user = 'Jhon'
 let password = '123456789'
 
-let userInsert = 'deyvid'
+let userInsert = 'fsafafas'
 let passwordInsert = '123456789'
 
 let Acesso;
 
 
-if( user != userInsert || password != passwordInsert){
-    console.log('Acesso negado')
-    Acesso = "negado"
+if( user != userInsert || password != passwordInsert ){
+    console.log('Acesso DEchado')
+    Acesso = "Negado"
 }
-else if (user == userInsert  && password == passwordInsert ){
+else if (user === userInsert  && password === passwordInsert ){
     console.log('Acesso Liberado')
-    Acesso = "aceito"
+    Acesso = "ACEITO"
 
 }
 Banco.innerHTML = Acesso
