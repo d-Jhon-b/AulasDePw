@@ -35,17 +35,16 @@ console.log(`O maior numero é ${maior}`)
 // posição 2(vaalor 7) = maior
 
 //atv 3
-const list3 = 'banana'
-const tamanhoLista3 = list3.length;
-let filtro = 'a';
-let conta = 0
 
-for(let letra of list3){
-    if(letra === filtro){
-        conta++
+            console.log('atv_3')
+let palavra = "MAMaMCO"
+let letraR = 'A';
+let letrar = 'a'; 
+let repeticoes = 0;
+
+for(let word of palavra){
+    if((word === letraR)|| (word === letrar)){
+        repeticoes++
     }
 }
-console.log(filtro +'\n' + conta)
-
-
-    
+console.log(repeticoes);
