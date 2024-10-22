@@ -32,8 +32,8 @@ for(const fruta of frutas){
     console.log(fruta)
 }
 
-console.log('filtração dentro do laço com -- of --')
-//filtração de atributo
+                    console.log('filtração dentro do laço com -- of --')
+                    //filtração de atributo
 
 for(const fruta of frutas){
     if(fruta == 'banana'){break;}
