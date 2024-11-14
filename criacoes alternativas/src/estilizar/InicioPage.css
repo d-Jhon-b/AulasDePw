@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(75, 117, 128), rgb(46, 213, 255));
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color: black;
+    overflow-x: hidden;
+}
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+}
+main{
+    height: 70vh;
+    width: 100%;
+}
+footer{
+    height: 8vh;
+    width:100%;
+}
+.header_sup{
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    opacity: 75%;
+}
+.header_sup:hover{
+    opacity: 100%;
+}
+
+.Jhon{
+    background-color: white;
+    color: white;       
+}
+#teste{
+    color: white;
+}
